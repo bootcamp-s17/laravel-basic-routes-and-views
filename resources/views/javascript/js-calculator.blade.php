@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="/js-calculator/style.css">
 </head>
 <body>
+
+@include('partials._nav')
+
     <div class='calculator'>
       <input class='display' type='readonly' value='0' id='display' disabled>
       <div class='keys'>

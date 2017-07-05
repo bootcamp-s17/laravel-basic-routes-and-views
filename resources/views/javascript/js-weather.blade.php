@@ -16,6 +16,9 @@
   crossorigin="anonymous"></script>
 </head>
 <body>
+
+@include('partials._nav')
+
 <div class='app container'>
 
   <h1>Weather App</h1>
