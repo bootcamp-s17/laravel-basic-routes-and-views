@@ -1,64 +1,62 @@
 <!doctype html>
 <html lang="{{ app()->getLocale() }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Janine's Test</title>
-    </head>
-    <body>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Janine's Bootcamp Examples</title>
 
+@include('partials._bootstrap3')
 
-<h1>Janine's Test</h1>
+</head>
+<body class="container-fluid">
 
-{{ time() }}
-
-<br />
-
-{{ $name = 'Janine' }}
+<h1>Janine's Bootcamp Examples</h1>
 
 <br />
 
-{{ "Hello, " . $name . "!" }}
+<p>
+    These examples were created in class for the Spring 2017 Awesome Inc U Web Developer Bootcamp.
+</p>
 
 <br />
 
-{{ ceil(5.6789) }}
-
-<br />
-
-<?php
-    echo "Welcome, Janine!";
-?>
-
-<br />
-
-<?php 
-    $message = "Welcome, $name. Have a nice day!";
-    echo $message;
-?>
-
-<br />
+<h3>JavaScript (JS5)</h3>
 
 <blockquote>
 
-<?php
-    $db = pg_connect("host=localhost port=5432 dbname=icecreamdev_dev user=icecream password=nomnomnom");
-    $stmt = "select * from menu_items";
-    $request = pg_query($db, $stmt);
-    $results = pg_fetch_all($request);
+    <dl>
 
-    foreach ($results as $item) {
-?>
+        <dt><a href="/examples/js/calculator">Calculator</a></dt>
+        <dd>Pure JS basic calculator.</dd>
 
-    <p> {{ $item['name'] }}, {{ $item['description'] }}</p>
+        <dt><a href="/examples/js/tictactoe">Tic-Tac-Toe</a></dt>
+        <dd>Classic game coded in pure JS.</dd>
 
-<?php
-    }
-?>
+        <dt><a href="/examples/js/weather">Weather</a></dt>
+        <dd>Example application that fetches weather data from an open API. Coded in pure JS.</dd>
+
+    </dl>
 
 </blockquote>
 
+<h3>AngularJS</h3>
 
-    </body>
+<blockquote>
+        
+    <dl>
+    </dl>
+
+</blockquote>
+
+<h3>PHP</h3>
+
+<blockquote>
+        
+    <dl>
+    </dl>
+
+</blockquote>
+
+</body>
 </html>
