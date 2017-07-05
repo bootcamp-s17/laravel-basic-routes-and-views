@@ -16,7 +16,7 @@
 <br />
 
 <p>
-    These examples were created in class for the Spring 2017 Awesome Inc U Web Developer Bootcamp.
+    These examples were used in the Spring 2017 Awesome Inc U Web Developer Bootcamp.
 </p>
 
 <br />
@@ -28,13 +28,13 @@
     <dl class="dl-horizontal">
 
         <dt><a href="/examples/js/calculator">Calculator</a></dt>
-        <dd>Pure JS basic calculator.</dd>
+        <dd>A basic non-scientific calculator.</dd>
 
         <dt><a href="/examples/js/tictactoe">Tic-Tac-Toe</a></dt>
         <dd>Classic game coded in pure JS.</dd>
 
         <dt><a href="/examples/js/weather">Weather</a></dt>
-        <dd>Example application that fetches weather data from an open API. Coded in pure JS.</dd>
+        <dd>Example application that fetches weather data from an API.</dd>
 
     </dl>
 
