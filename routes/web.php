@@ -34,3 +34,11 @@ Route::get('/examples/js/tictactoe', function () {
 Route::get('/examples/js/weather', function () {
     return view('javascript.js-weather');
 });
+
+Route::get('/examples/angular/order-form', function () {
+    return view('angular.angular-order-form');
+});
+
+Route::get('/partials/nav', function () {
+    return view('partials._nav');
+});

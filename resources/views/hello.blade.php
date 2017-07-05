@@ -25,7 +25,7 @@
 
 <blockquote>
 
-    <dl>
+    <dl class="dl-horizontal">
 
         <dt><a href="/examples/js/calculator">Calculator</a></dt>
         <dd>Pure JS basic calculator.</dd>
@@ -44,7 +44,12 @@
 
 <blockquote>
         
-    <dl>
+    <dl class="dl-horizontal">
+
+        <dt><a href="/examples/angular/order-form">Order Form</a></dt>
+        <dd>An order form that calulates the total for selected options and allows users to add more options.</dd>
+
+
     </dl>
 
 </blockquote>
