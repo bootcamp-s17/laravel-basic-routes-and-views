@@ -42,3 +42,7 @@ Route::get('/examples/angular/order-form', function () {
 Route::get('/partials/nav', function () {
     return view('partials._nav');
 });
+
+Route::get('/examples/angular/word-counter', function () {
+    return view('angular.angular-word-counter');
+});

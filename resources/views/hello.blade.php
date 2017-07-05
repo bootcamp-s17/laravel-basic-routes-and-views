@@ -49,6 +49,8 @@
         <dt><a href="/examples/angular/order-form">Order Form</a></dt>
         <dd>An order form that calulates the total for selected options and allows users to add more options.</dd>
 
+        <dt><a href="/examples/angular/word-counter">Word Counter</a></dt>
+        <dd>Count words in a paragraph.</dd>
 
     </dl>
 

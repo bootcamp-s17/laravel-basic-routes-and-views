@@ -1,0 +1,32 @@
+body {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.page-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #eee;
+    border-top: 1px solid #aaa;
+    padding-top: 20px;
+}
+
+.statistics {
+    margin-top: 24px;
+}
+
+.save-button {
+    margin-top: 12px;
+}
+
+.input-saved-alert {
+    position: relative;
+    z-index: 1000;
+}
+
+.input-saved-alert .alert{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
